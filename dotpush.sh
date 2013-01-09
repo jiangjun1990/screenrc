@@ -16,5 +16,5 @@ set -x
 FILES=".screenrc"
 
 for x in $FILES; do
-	cp $x $HOME
+  cp $x $HOME
 done
