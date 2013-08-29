@@ -1,45 +1,26 @@
-==========================================================================
-### Filename: README
-### Purpose: README for my GNU screen .screenrc
-### Last Update: 2011.11.11
-#### Current Author: Rob Friedman / <px@ns1.net> / http://playerx.net
-==========================================================================
-### SEE ALSO:
-http://github.com/px/screenrc/
-#### mirror:
-http://git.ns1.net/cgit/cgit.cgi/screenrc/
+-----
+* Last Update: 2013.08.29
+* This Fork Author: JiangJun ( <jiangjun1990@gmail.com> )
+-----
 
-==========================================================================
-### DESCRIPTION:
-This is my GNU .screenrc file and a simple something to push it to $HOME;
-Hopefully large files with all their comments and crap do not take
-up much screen memory. I left a lot of the cruft as I tweaked the visuals.
-==========================================================================
-### SCREENSHOT: 
-#### 2011.11.12
-![2011.11.12 80x25 screenshot](/px/screenrc/raw/master/screenshot-80x25.png "2011.11.12 80x25 screenshot")
+Description
+-----------
+This is my GNU .screenrc file and a simple something to push it to $HOME.
 
-==========================================================================
-### HISTORY:
-##### 2011.11.11
-Cleaned up some autostart things, added a few descriptions 
+Hopefully large files with all their comments and crap do not take up much screen memory. I left a lot of the cruft as I tweaked the visuals.
 
-##### 2011.08.07
-Just a minor change.
+My changelog
+----------
+####2013-08-29
 
-##### 2009.08.08
-I'm not sure when I originally downloaded the .screenrc began modifying it.
-It was sometime in 2004 I believe.
+* Change the key-binding for next/prev screen to F11/F12.
+* Customize the hardstatus bar, adding a background color on the title of current screen window.
 
-I added a neat bottom status bar tweaked it's operation and then
-modified to colors I like.
-Changed the escape key to `
-Tried to get some ssh-agent support; Not quite there.
-==========================================================================
+Screenshot
+----------
+![screenshot on Ubuntu](https://raw.github.com/jiangjun1990/screenrc/master/screenshot_2013-08-29.png)
 
-## The .screen originally came from:
-Michael Prokop / <online@michael-prokop.at> / www.michael-prokop.at
-
-==========================================================================
-# EOF
-==========================================================================
+The .screen originally came from:
+------
+* Rob Friedman / <px@ns1.net> / http://playerx.net
+* Michael Prokop / <online@michael-prokop.at> / www.michael-prokop.at
