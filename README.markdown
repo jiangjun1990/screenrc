@@ -19,7 +19,7 @@ My changelog
 
 Screenshot
 ----------
-![screenshot on Ubuntu](https://raw.github.com/jiangjun1990/screenrc/master/screenshot_2013-08-29.png)
+![screenshot on Ubuntu](https://raw.github.com/jiangjun1990/screenrc/master/screenshot.png)
 
 The .screen originally came from:
 ------
