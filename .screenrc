@@ -221,7 +221,13 @@ escape ``
 # caption always "%=%c:%s %Y-%m-%d"
 #
 # caption always "%>%{wk}%?%-Lw%?%{bw}%n*%f %t%?(%u)%?%{wk}%?%+Lw%?%<"
-# caption always "%-Lw%{= BW}%50>%n%f* %t%{-}%+Lw%<"
+
+### Can change focus according to current selected window
+# caption always "%-Lw%{= BW}%50>%n%f* %t%{-}%+Lw%85= %{wk} %M%d|%c %{rw}%H%<"
+# hardstatus string "%-w%{= BW}%50>%n %t%{-}%+w%<"
+hardstatus alwayslastline "%{= BW}%-Lw%{= WB}%50>%n%f* %t%{-}%+Lw%85= %{Wk} %M%d|%c %{RW}%H%<"
+
+### Only a red line, and only current window name.
 # caption always "%?%F%{.RW}%?%3n %t%? [%h]%?"
 # caption always "%{rk}%H %{gk}%c %{yk}%M%d %{wk}%?%-Lw%?%{bw}%n*%f %t%?(%u)%?%{wk}%?%+Lw%?"
 # caption always "%{kG}%?%-Lw%?%{bw}%n*%f %t%?(%u)%?%{kG}%?%+Lw%?"
@@ -247,13 +253,15 @@ escape ``
 #  simple
 #  caption always "%{= kw}%-w%{= kG}%{+b}[%n %t]%{-b}%{= kw}%+w %=%d %M %0c %{g}%H%{-}"
 #  default
-  caption always "%0=%{+b wk}%H %{bk}| %0L=%{ck}%>%-Lw%{= BW}%n%f* %t%{-}%+Lw%L>%?(%u)%? %{bk}|%>%=%{Yk} %=%C%A %Y.%m.%d %{bk}%100="
+#  caption always "%0=%{+b wk}%H %{bk}| %0L=%{ck}%>%-Lw%{= BW}%n%f* %t%{-}%+Lw%L>%?(%u)%? %{bk}|%>%=%{Yk} %=%C%A %Y.%m.%d %{bk}%100="
 
 # emerge strokes the %h not the %t          :)
-  hardstatus off
+  hardstatus on
 ################# | hardstatus |             <padded right>  load avg
 #  hardstatus alwayslastline "%0=%{kB}| %{kw}%h %{kB}|%=%{kR}Load: %l%100="
 #  hardstatus alwayslastline '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %d/%m %{W}%c %{g}]'
+### Redhat default hardstatus - only show current windows name
+# hardstatus string "[screen %n%?: %t%?] %h"
 
 
 #
