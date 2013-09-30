@@ -1,7 +1,6 @@
 ---
-* Last Update: 2013.08.29
-* This Fork Author: JiangJun \( <jiangjun1990@gmail.com> \)
-
+- Last Update: 2013.08.29
+- This Fork Author: JiangJun ( <jiangjun1990@gmail.com> )
 ---
 
 Description
