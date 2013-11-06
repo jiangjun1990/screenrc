@@ -56,7 +56,7 @@ setenv myTOP 'top'
 # escape ^pp  # suggested binding for emacs users
 # escape `    # backtick
 #
-escape ^``
+escape ^aa
 
 # ===============================================================
 # STARTUP of programs in an extra window:
