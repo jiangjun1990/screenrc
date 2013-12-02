@@ -95,7 +95,7 @@ escape ^aa
 # don't display the copyright page
   startup_message       off             # default: on
 # no annoying audible bell, please
-  vbell                 on
+  vbell                 off
 
 # ===============================================================
 # version depending stuff
