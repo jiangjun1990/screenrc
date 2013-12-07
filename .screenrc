@@ -40,6 +40,9 @@
 # "unset" the variable.
 #
 
+# term
+term "screen-256color"
+
 ## Set your favorite programs
 ## Browser
 #setenv BROWSER 'links'
