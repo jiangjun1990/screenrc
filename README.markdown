@@ -14,7 +14,8 @@ My changelog
 ----------
 ####2013-08-29
 
-* Change the key-binding for next/prev screen to F11/F12.
+* Change the key-binding for next/prev screen to Ctrl-LeftArrow & Ctrl-RightArrow.  
+This setting may not work in some ssh client(e.g. PuTTY). You can uncomment correct `BINDKEY` part by yourself in `.screenrc`.
 * Customize the hardstatus bar, adding a background color on the title of current screen window.
 
 Screenshot

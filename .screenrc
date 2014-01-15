@@ -856,8 +856,10 @@ bind I screen -t irssi		99	irssi -! ## use the -! to disable autoconnect
 # Use the function keys F11 and F12
 # to cycle backwards/forwards in
 # the list of existing windows:
+# (Fit for PuTTY)
 # bindkey -k F1 prev
 # bindkey -k F2 next
+#
 # Use Ctrl-left_arrow/right_arrow to navigate
 bindkey ^[[1;5D prev
 bindkey ^[[1;5C next
