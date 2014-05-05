@@ -861,8 +861,12 @@ bind I screen -t irssi		99	irssi -! ## use the -! to disable autoconnect
 # bindkey -k F2 next
 #
 # Use Ctrl-left_arrow/right_arrow to navigate
-bindkey ^[[1;5D prev
-bindkey ^[[1;5C next
+# bindkey ^[[1;5D prev
+# bindkey ^[[1;5C next
+#
+# Use Ctrl-F11/Ctrl-F12 to navigate
+bindkey ^[[23~ prev
+bindkey ^[[24~ next
 
 #
 # make the "kb" send a backspace (CTRL-H:)
