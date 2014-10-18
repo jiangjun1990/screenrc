@@ -48,6 +48,10 @@ attrcolor b ".I"
 termcapinfo xterm 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm' 
 # erase background with current bg color 
 defbce "on"
+# clear screen after using fullscreen programs
+# see here:
+# http://superuser.com/questions/137714/using-screen-commands-like-less-and-man-dont-clear-the-screen-afterwards/137751#137751
+altscreen on
 
 ## Set your favorite programs
 ## Browser
