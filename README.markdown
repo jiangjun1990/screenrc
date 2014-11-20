@@ -1,5 +1,12 @@
+> ###DEPRECATED:
+> 
+> This repo has been moved into [ohmystack/linux-script](https://github.com/ohmystack/linux-scripts)
+> 
+> Further updates will be only commited in that repo instead of this one.
+
+
 ---
-- Last Update: 2014.01.15
+- Last Update: 2014.10.18
 - This Fork Author: JiangJun ( <jiangjun1990@gmail.com> )
 
 ---
